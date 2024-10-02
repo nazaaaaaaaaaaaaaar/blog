@@ -1,0 +1,14 @@
+
+import 'package:flutter/material.dart';
+
+void main() {
+  var values = [1,2,3,8,200,100];
+  for (var i = 0; i < values.length; i++) {
+    var v = values[i];
+    if (v % 2 == 0) {
+      print("Even");
+} else {
+  print("Odd")
+}
+  }
+}
