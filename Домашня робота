@@ -1,0 +1,17 @@
+void main() {
+  var person = {
+    'name': 'Назар',
+    'age': '15',
+    'hobby': 'Футбол, Волейбол, Ігри'
+  };
+  displayKeys(person);
+  displayName(person);
+}
+void displayKeys(Map<String, dynamic> data) {
+  for (var key in data.keys) {
+    print(key);
+  }
+}
+void displayName(Map<String, dynamic> data) {
+  print(data['name']);
+} 
